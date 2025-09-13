@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1016160751342",
+    "project_id": "danahunterfcm",
+    "storage_bucket": "danahunterfcm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016160751342:android:5ac94366c9befd5839adff",
+        "android_client_info": {
+          "package_name": "com.rudi.fcmbridge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiZD45m-tGLjfPo3c2F8Oiu3XxReSPGEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
