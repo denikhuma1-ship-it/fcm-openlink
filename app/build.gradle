@@ -1,12 +1,14 @@
-apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'   // ✅ ini penting
+}
 
 android {
     namespace 'com.rudi.fcmbridge'
     compileSdk 34
 
     defaultConfig {
-        applicationId 'com.rudi.fcmbridge'
+        applicationId "com.rudi.fcmbridge"
         minSdk 24
         targetSdk 34
         versionCode 1
