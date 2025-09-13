@@ -10,8 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
-        <!-- Main activity -->
-        <activity android:name=".MainActivity">
+        <!-- Main activity (launcher) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">   <!-- ✅ WAJIB ditambahkan -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -21,7 +23,7 @@
         <!-- Firebase messaging service -->
         <service
             android:name=".MyFirebaseService"
-            android:exported="false">
+            android:exported="false">  <!-- ✅ Tambahkan juga biar aman -->
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
